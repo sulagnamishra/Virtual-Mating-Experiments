@@ -7,8 +7,7 @@ Coding language : R
 The Zipped folder contains the following: 
 
 Executable file - do_vme.r -      loads all the necessary packages, functions needed during the model run, 
-
-  makes the initial parameter declarations 
+makes the initial parameter declarations 
   performs the analysis for the the different scenarios at variable frequencies and local sensitivity analysis.
   Note that sensitivity analysis for each parameter is written in a separate function. 
   The output (tables and figures) are automatically stored/plotted.                                 
@@ -28,17 +27,19 @@ Common nomenclature used in the code:
 Scenario: modelling scenarios
 
 Parameters: 
-cost: plasmid cost, 
+ 
+ cost: plasmid cost, 
+ 
+ lg: logGamma - plasmid transfer rate constant (expressed in Log 10),
+ 
+ lp: Lap phase of growth,
+ 
+ mt: Maturation time for Transconjugants,
 
-lg: logGamma - plasmid transfer rate constant (expressed in Log 10),
-
-lp: Lap phase of growth,
-
-mt: Maturation time for Transconjugants,
-
-mu: Growth rate constant of the bacteria
+ mu: Growth rate constant of the bacteria
 
 Models: 
+
 Forward model : model used for virtual data generation,
 
 Backward model: model used for parameter estimation based on the modelling scenario. 
