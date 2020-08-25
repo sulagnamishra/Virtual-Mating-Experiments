@@ -17,12 +17,17 @@ Folders: R - containing all the necessary functions
          
 
 Common nomenclature used in the code: 
+
 Scenario: modelling scenarios
+
+Parameters: 
 cost: plasmid cost
 lg: logGamma - plasmid transfer rate constant (expressed in Log 10)
 lp: Lap phase of growth
 mt: Maturation time for Transconjugants
 mu: Growth rate constant of the bacteria
+
+Models: 
 Forward model : model used for virtual data generation
 Backward model: model used for parameter estimation based on the modelling scenario. 
 
