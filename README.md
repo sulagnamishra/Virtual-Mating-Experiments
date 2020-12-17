@@ -44,6 +44,8 @@ Parameters:
                  mt: Maturation time for Transconjugants,
 
                  mu: Growth rate constant of the bacteria
+                 
+                 D2R: initial D:R ratio
 
 Models: 
 
@@ -54,6 +56,6 @@ Models:
 
 Please feel free to contact the author for futher details and explanations regarding the code. 
 
-Sulagna Mishra
+Sulagna Mishra, Sulagna.mishra@tu-dresden.de
 
 
